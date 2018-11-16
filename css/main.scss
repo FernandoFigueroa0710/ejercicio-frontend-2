@@ -1,13 +1,13 @@
-@import 'normalize';
+@import "normalize";
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 170%;
 
   code {
     display: inline-block;
     letter-spacing: 1px;
-    background-color: #F0F0F0;
+    background-color: #f0f0f0;
     font-family: "Comic Sans MS";
     background: -webkit-linear-gradient(#f4b642, #f441d6);
     -webkit-background-clip: text;
@@ -16,3 +16,6 @@ body {
 }
 
 /* Código de la tabla aquí */
+h1 {
+  text-align: center;
+}
