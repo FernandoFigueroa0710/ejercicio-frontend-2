@@ -1,21 +1,7 @@
-@import "normalize";
-
-body {
-  font-family: "Rubik", sans-serif;
-  line-height: 170%;
-
-  code {
-    display: inline-block;
-    letter-spacing: 1px;
-    background-color: #f0f0f0;
-    font-family: "Comic Sans MS";
-    background: -webkit-linear-gradient(#f4b642, #f441d6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-
 /* Código de la tabla aquí */
-h1 {
+table,
+th,
+td {
+  border: 1px solid black;
   text-align: center;
 }
