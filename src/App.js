@@ -9,34 +9,30 @@ class App extends Component {
       list: employees
     };
   }
+  salryConversion() {}
   render() {
     return (
       <div>
         <h1 className="header">Resuelve Employee List</h1>
-        <table role="grid">
+        <table id="employees">
           <thead>
             <tbody>
-              <th width="200" scope="column" id="name">
+              <th width="193" scope="column" id="name">
                 Name
               </th>
-
-              <th width="175" scope="column" id="company">
+              <th width="157" scope="column" id="company">
                 Company
               </th>
-
-              <th width="100" scope="column" id="age">
+              <th width="95" scope="column" id="age">
                 Age
               </th>
-
-              <th width="175" scope="column" id="phone">
+              <th width="155" scope="column" id="phone">
                 Phone
               </th>
-
-              <th width="200" scope="column" id="email">
+              <th width="206" scope="column" id="email">
                 Email
               </th>
-
-              <th width="100" scope="column" id="salary">
+              <th width="117" scope="column" id="salary">
                 Salary
               </th>
             </tbody>
